@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-30T02:30:59.245918",
+    "total_reports_processed": 4,
+    "system": "Medical Code Extraction Pipeline",
+    "methodology": "Rule-based entity extraction + RAG for medical codes"
+  },
+  "results": [
+    {
+      "Clinical_Terms": [
+        "hemorrhoids",
+        "history",
+        "no immediate complications",
+        "personal history of colonic polyps"
+      ],
+      "Anatomical_Locations": [
+        "cecum",
+        "colon",
+        "ileocecal valve",
+        "proximal colon",
+        "rectum",
+        "sigmoid"
+      ],
+      "Diagnosis": [
+        "colon polyps",
+        "colonic polyps",
+        "diverticulosis",
+        "diverticulosis and internal hemorrhoids.",
+        "hemorrhoids",
+        "internal hemorrhoids",
+        "melanosis coli",
+        "moderate sigmoid diverticulosis",
+        "polyps",
+        "sigmoid diverticulosis",
+        "the patient is an 82-year-old female with history of colon polyps. today's exam did not reveal any polyps. she did have melanosis coli",
+        "z86.0100 history of colon polypsz86.0100 -personal history of colonic polyps k64.8 -internal hemorrhoids k57.90 –diverticulosis"
+      ],
+      "Procedure": [
+        "colonoscopy",
+        "endoscopy",
+        "george at 1023 on 07/07/2025 propofol 500 mg/50ml emulsion",
+        "george at 1041 on 07/07/2025 lidocaine hci 2 % solution",
+        "george at 1041 on 07/07/2025colonoscopy procedure : there was nothing precluding endoscopy on history or physical exam. informed consent was obtained with risks and benefits explained to the patient. the patient tolerated the procedure well. there no immediate complications. the patient was placed in left lateral decubitus position. a rectal exam was performed. the pediatric colonoscope was inserted into the rectum and carefully advanced to the cecum. the cecum was identified by the ileocecal valve",
+        "intravenous -240 00",
+        "intravenous as directed -350 00",
+        "iv -20 00",
+        "last administered by: smith",
+        "procedure code colonoscopyanesthesia type : monitored anesthesiacare asa class : ii lactated ringers -solution",
+        "retroflexion",
+        "the triradiate fold and appendicealorifice. careful inspection was made as the colonoscope was removed including retroflexion in the rectum.",
+        "there was nothing precluding endoscopy on history or physical exam. informed consent was obtained with risks and benefits explained to the patient. the patient tolerated the procedure well. there no immediate complications. the patient was placed in left lateral decubitus position. a rectal exam was performed. the pediatric colonoscope was inserted into the rectum and carefully advanced to the cecum. the cecum was identified by the ileocecal valve"
+      ],
+      "ICD_10": [
+        "Z86.0101",
+        "K57.30",
+        "Z86.0100"
+      ],
+      "CPT": [
+        "45378",
+        "45388",
+        "45380"
+      ],
+      "HCPCS": [],
+      "ReportID": "report_1"
+    },
+    {
+      "Clinical_Terms": [
+        "colon cancer screening",
+        "hemorrhoids",
+        "screening",
+        "sessile polyp"
+      ],
+      "Anatomical_Locations": [
+        "anal canal",
+        "ascending colon",
+        "cecum",
+        "colon",
+        "descending colon",
+        "hepatic flexure",
+        "ileum",
+        "rectum",
+        "sigmoid",
+        "sigmoid colon",
+        "splenic flexure",
+        "terminal ileum",
+        "transverse colon"
+      ],
+      "Diagnosis": [
+        "cancer",
+        "colon cancer",
+        "hemorrhoids",
+        "polyp",
+        "polyps",
+        "pre-operative diagnosis: · z12.11 [colon cancer screening]",
+        "sessile polyp",
+        "· z12.11 [colon cancer screening]"
+      ],
+      "Procedure": [
+        "cold snare",
+        "colonoscopy",
+        "procedure: colonoscopy -anal canal: k64.9 -hemorrhoids",
+        "unspecified (without mention of degree) -rectum: normal -sigmoid colon: normal -descending colon: normal -splenic flexure: normal -transverse colon: normal -hepatic flexure: normal -ascending colon: normal -cecum: normal -terminal ileum: normal -polyps: -site: descending colon -size: 6 mm -type: sessile polyp -device/method: cold snare -polyp completely removed and retrievedcomplications: no immediate complication."
+      ],
+      "ICD_10": [
+        "Z12.11",
+        "D12.6",
+        "Z86.0101"
+      ],
+      "CPT": [
+        "45388",
+        "45385",
+        "45380"
+      ],
+      "HCPCS": [],
+      "ReportID": "report_2"
+    },
+    {
+      "Clinical_Terms": [
+        "bleeding",
+        "hemorrhoids"
+      ],
+      "Anatomical_Locations": [
+        "anal verge",
+        "anus",
+        "appendiceal orifice",
+        "cecum",
+        "colon",
+        "distal rectum",
+        "ileocecal valve",
+        "left colon",
+        "rectum",
+        "right colon",
+        "transverse colon"
+      ],
+      "Diagnosis": [
+        "-a single erosion in the distal rectum. biopsied. -internal hemorrhoids. -the examination was otherwise normal on direct and retroflexion views.procedure codes :45380",
+        "colonoscopy",
+        "erosion",
+        "flexible",
+        "hemorrhage of anus and rectum",
+        "hemorrhoids",
+        "indication : last colonoscopy 3 years ago",
+        "internal hemorrhoids",
+        "last colonoscopy 3 years ago",
+        "localized erosion",
+        "other hemorrhoids k62.5",
+        "proctitis",
+        "rectal bleeding",
+        "rectal bleedingdiagnosis codes :k62.6",
+        "single or multiple"
+      ],
+      "Procedure": [
+        "and oxygensaturations were monitored continuously. the colonoscope was introduced through the anus and advanced to the cecum",
+        "and the procedure was verified. after i obtained informed consent",
+        "aspiration and misssed lesions. prep was good. washes and suctioning done as needed also so overall good visualization of mucosa. slow withdrawal on of scope with careful inspection of mucosa for abnormalities. judicious gas insuilation used on way in. gas removal was done as much as possible on way out. . retroflexion done in the rectum. scope only advanced when lumen identified. the quality of the bowel preparation was evaluated using the bbps (boston bowel preparation scale) with scores of: right colon = 3 (entire mucosa seen well with no residual staining",
+        "biopsies",
+        "biopsy",
+        "bleeding",
+        "bowel preparation",
+        "cold forceps",
+        "colonoscopy",
+        "colonoscopy. before the procedure",
+        "identified by appendiceal orifice and ileocecal valve. the colonoscopy was performed without diiiculty. the patient tolerated the procedure well. procedure and risks explained to patient which include but not limited to medication reaction",
+        "perforation",
+        "retroflexion",
+        "small fragments of stool or opaque liquid)",
+        "small fragments of stool or opaque liquid) and left colon = 3 (entire mucosa seen well with no residual staining"
+      ],
+      "ICD_10": [
+        "K62.5",
+        "K51.911",
+        "K51.311"
+      ],
+      "CPT": [
+        "45380",
+        "45378",
+        "45388"
+      ],
+      "HCPCS": [],
+      "ReportID": "report_3"
+    },
+    {
+      "Clinical_Terms": [
+        "atypical chest pain",
+        "chest pain",
+        "history",
+        "no immediate complications"
+      ],
+      "Anatomical_Locations": [
+        "distal esophagus",
+        "duodenal bulb",
+        "duodenum",
+        "esophagus",
+        "pylorus",
+        "right upper quadrant",
+        "stomach",
+        "z-line"
+      ],
+      "Diagnosis": [
+        "barrett's esophagus",
+        "gastritis",
+        "mild antral and body gastritis",
+        "pre-operative diagnosisr07.89 -atypical chest pain r10.11 -right upper quadrant abdominal painpost-operative diagnosisr07.89 -atypical chest pain r10.11 -ruq pain k29.70 -gastritis",
+        "the patient is 55-year-old male with atypical chest pain and right upper quadrant pain. biopsies today were obtained for h.pylori and barrett's esophagus. if the patient does barrett's esophagus and a repeat egd with biopsy in 6 months will be recommended.post operative impressionegd the patient tolerated the procedure without complications. the egd was uneventful."
+      ],
+      "Procedure": [
+        "biopsies",
+        "biopsy",
+        "egd",
+        "endoscopy",
+        "george at 1408 on 07/07/2025 propofol 500 mg/50ml emulsion",
+        "george at 1419 on 07/07/2025 lidocaine hci 2 % solution",
+        "george at 1419 on 07/07/2025egd procedure : there was nothing precluding endoscopy on history or physical exam. informed consent was obtained with risks and benefits explained to the patient. the patient tolerated the procedure well. there were no immediate complications the patient was placed in the left lateraldecubitus position. the olympus endoscope was inserted into the esophagus under direct visualization. it was advanced through the esophagus",
+        "into the stomach and through the pylorus to the duodenal bulb and 2nd portion of the duodenum. careful inspection was made as the endoscope was removed including retroflexion in the stomach.",
+        "intravenous -350 00",
+        "intravenous as directed -200 00",
+        "iv -60 00",
+        "last administered by: smith",
+        "monitored anesthesia care",
+        "narrow band imaging",
+        "procedure code egd w/biopsyanesthesia type : monitored anesthesia care lactated ringers -solution"
+      ],
+      "ICD_10": [
+        "K22.719",
+        "K22.70",
+        "K22.710"
+      ],
+      "CPT": [
+        "43236",
+        "43235",
+        "43245"
+      ],
+      "HCPCS": [],
+      "ReportID": "report_4"
+    }
+  ]
+}
